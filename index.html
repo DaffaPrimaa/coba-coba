@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portal HIMKI</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portal resmi HIMKI - Direktori anggota industri mebel dan kerajinan Indonesia. Temukan mitra terbaik dan ekspansi bisnis Anda di sini.">
+  <title>Portal HIMKI – Direktori Industri Mebel Indonesia</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
+      background-color: #f4f4f4;
+      color: #333;
     }
     header {
-      background-color: #006241;
+      background: linear-gradient(135deg, #016241, #019875);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
     nav {
-      background-color: #004b31;
-      padding: 10px;
+      background-color: #01432f;
       text-align: center;
+      padding: 10px;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 10px;
+      margin: 0 15px;
       font-weight: bold;
     }
     .container {
-      padding: 20px;
       max-width: 960px;
       margin: auto;
-      background-color: white;
+      padding: 20px;
+      background: white;
     }
-    h2 {
-      color: #006241;
+    .hero {
+      text-align: center;
+      padding: 30px 10px;
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+      color: #019875;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+    .cta {
+      background-color: #019875;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
     }
     table {
       width: 100%;
+      margin-top: 30px;
       border-collapse: collapse;
-      margin-top: 20px;
     }
     th, td {
+      border: 1px solid #ccc;
       padding: 12px;
-      border: 1px solid #ddd;
       text-align: left;
     }
     th {
-      background-color: #e2f0eb;
+      background-color: #e6f2ef;
     }
     tr:hover {
-      background-color: #f1f1f1;
+      background-color: #f9f9f9;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #e2f0eb;
       margin-top: 40px;
+      background-color: #e6f2ef;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -65,22 +90,34 @@
 
 <header>
   <h1>Portal HIMKI</h1>
-  <p>Himpunan Industri Mebel dan Kerajinan Indonesia</p>
+  <p>Menghubungkan Industri Mebel dan Kerajinan Seluruh Indonesia</p>
 </header>
 
 <nav>
   <a href="#beranda">Beranda</a>
+  <a href="#manfaat">Manfaat Bergabung</a>
   <a href="#anggota">Direktori Anggota</a>
   <a href="#kontak">Kontak</a>
 </nav>
 
-<div class="container" id="beranda">
-  <h2>Tentang HIMKI</h2>
-  <p>HIMKI adalah organisasi yang menaungi industri mebel dan kerajinan di Indonesia. Kami mendukung pertumbuhan industri melalui kolaborasi, promosi, dan penguatan jaringan antar pelaku usaha.</p>
-</div>
+<section class="container hero" id="beranda">
+  <h2>Gabung dengan HIMKI Sekarang</h2>
+  <p>HIMKI merupakan wadah strategis untuk memperkuat posisi industri mebel dan kerajinan Indonesia di kancah global. Dapatkan akses ke jaringan nasional, promosi, dan dukungan kebijakan.</p>
+  <button class="cta">Daftar Jadi Anggota</button>
+</section>
 
-<div class="container" id="anggota">
-  <h2>Direktori Anggota</h2>
+<section class="container" id="manfaat">
+  <h2>Kenapa Bergabung dengan HIMKI?</h2>
+  <ul>
+    <li>✅ Jaringan luas perusahaan mebel nasional</li>
+    <li>✅ Promosi bisnis lewat direktori publik HIMKI</li>
+    <li>✅ Backlink resmi ke website Anda (untuk SEO)</li>
+    <li>✅ Akses ke pelatihan, pameran, dan peluang ekspor</li>
+  </ul>
+</section>
+
+<section class="container" id="anggota">
+  <h2>Direktori Anggota HIMKI</h2>
   <table>
     <thead>
       <tr>
@@ -107,16 +144,16 @@
       </tr>
     </tbody>
   </table>
-</div>
+</section>
 
-<div class="container" id="kontak">
-  <h2>Kontak</h2>
+<section class="container" id="kontak">
+  <h2>Hubungi Kami</h2>
   <p>Email: info@himki.or.id</p>
-  <p>Telepon: 021-12345678</p>
-</div>
+  <p>Telepon: (021) 12345678</p>
+</section>
 
 <footer>
-  &copy; 2025 HIMKI - All rights reserved.
+  &copy; 2025 HIMKI. Portal Digital Industri Mebel & Kerajinan. Made with ❤️
 </footer>
 
 </body>
